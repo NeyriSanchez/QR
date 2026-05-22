@@ -17,15 +17,15 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
 
-### Screenshot of the project
+### Project Screenshot
 
-![QR Code Component Screenshot](./image.png)
+![QR Code Component screenshot](./image.png)
 
 
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/NeyriSanchez/QR.git)
-- Live URL: [Live URL](https://neyrisanchez.github.io/QR/)
+- Live URL: [Live Server URL](https://neyrisanchez.github.io/QR/)
 
 
 ## My process

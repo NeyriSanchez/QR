@@ -16,11 +16,11 @@
   <style>
     .attribution { 
       font-size: 0.6875rem; 
-      color: hsl(210, 43%, 27%);
+      color: hsl(0, 0%, 75%);
 
     }
     .attribution a { 
-      color: hsl(210, 36%, 47%); 
+      color: hsl(211, 64%, 47%); 
     }
     
     .tarjeta {
@@ -33,10 +33,10 @@
       flex-direction: column;
       align-items: center;
       padding-top: 10px;
-      height: fit-content;
+
     }
 
-    img {
+    .tarjeta img {
       width: 245px;
       border-radius: 15px;
     }
@@ -46,14 +46,15 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: space-between;
-      font-family: 'Outfit';
+      justify-content: center;
+      font-family: 'Outfit', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
       background-color: rgb(19, 19, 58);
       text-align: center;
       height: 100vh;
+      margin: 0;
     }
 
-    h1 {
+    .tarjeta h1 {
 
       color: hsl(218, 44%, 22%);
       font-size: 21px;
@@ -61,7 +62,7 @@
 
     }
 
-    p{
+    .tarjeta p{
      color:hsl(216, 15%, 48%) ;
      font-size: 15px;
      font-weight: 400;
@@ -75,7 +76,7 @@
 <body>
    
   <div class="tarjeta">
-   <img src ="images/image-qr-code.png" alt="QR code img">
+   <img src ="images/image-qr-code.png" alt="QR code linking to Frontend Mentor homepage">
     <h1>Improve your front-end skills by building projects</h1>
     <p>
       Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
