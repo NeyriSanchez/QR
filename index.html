@@ -37,6 +37,12 @@
 
     }
 
+    .container {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
     .tarjeta img {
       width: 245px;
       border-radius: 15px;
@@ -46,12 +52,10 @@
 
       display: flex;
       flex-direction: column;
-      align-items: center;
-      justify-content: center;
+      min-height: 100vh;
       font-family: 'Outfit', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
       background-color: rgb(19, 19, 58);
       text-align: center;
-      height: 100vh;
       margin: 0;
     }
 
@@ -76,13 +80,14 @@
 </head>
 <body>
    
-  <div class="tarjeta">
-   <img src ="images/image-qr-code.png" alt="QR code linking to Frontend Mentor homepage">
-    <h1>Improve your front-end skills by building projects</h1>
-    <p>
-      Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-    </p>
-
+  <div class="container">
+     <div class="tarjeta">
+       <img src ="images/image-qr-code.png" alt="QR code linking to Frontend Mentor homepage">
+        <h1>Improve your front-end skills by building projects</h1>
+         <p>
+           Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+         </p>
+    </div>
   </div>
  
 
